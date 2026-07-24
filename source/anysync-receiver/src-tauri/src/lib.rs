@@ -337,8 +337,8 @@ fn upload_page_html(token: &str) -> String {
   <main>
     <h1>AnySync</h1>
     <section class="panel">
-      <strong>Send original photos or videos to this PC</strong>
-      <input id="files" type="file" accept="image/*,video/*,.jpg,.jpeg,.png,.gif,.webp,.heic,.heif,.mp4,.mov,.m4v,.avi,.mkv,.webm,.3gp" multiple>
+      <strong>Send original photos, videos, or documents to this PC</strong>
+      <input id="files" type="file" accept="image/*,video/*,application/pdf,text/*,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,.jpg,.jpeg,.png,.gif,.webp,.heic,.heif,.mp4,.mov,.m4v,.avi,.mkv,.webm,.3gp,.pdf,.txt,.md,.csv,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip,.rar,.7z" multiple>
       <button id="upload">Upload</button>
       <div id="log"></div>
     </section>

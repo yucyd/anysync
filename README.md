@@ -1,7 +1,7 @@
 # AnySync Receiver 使用说明 / User Guide
 
 
-AnySync Receiver 是一个电脑端接收工具。电脑启动后，手机可以通过浏览器把照片和视频原样传到电脑指定文件夹，不压缩、不转码。
+AnySync Receiver 是一个电脑端接收工具。电脑启动后，手机可以通过浏览器把照片、视频和文档原样传到电脑指定文件夹，不压缩、不转码。
 
 ### 根目录文件
 
@@ -16,7 +16,7 @@ AnySync Receiver 是一个电脑端接收工具。电脑启动后，手机可以
 3. 点击 `Start Receiver` 启动接收服务。
 4. 手机和电脑连接到同一个 Wi-Fi，或者手机开热点让电脑连接。
 5. 用手机扫描电脑界面的二维码，或手动打开界面显示的 `Phone URL`。
-6. 在手机浏览器选择照片或视频，选择后会自动上传。
+6. 在手机浏览器选择照片、视频或文档，选择后会自动上传。
 7. 上传完成后，文件会原样保存到电脑选择的目录。
 
 ### 源码开发
@@ -44,7 +44,7 @@ npm run tauri:dev
 
 
 
-AnySync Receiver is a desktop receiving tool. After starting it on your PC, your phone can upload original photos and videos through a browser to a selected PC folder. Files are saved as-is, with no compression or transcoding.
+AnySync Receiver is a desktop receiving tool. After starting it on your PC, your phone can upload original photos, videos, and documents through a browser to a selected PC folder. Files are saved as-is, with no compression or transcoding.
 
 ### Root Files
 
@@ -59,7 +59,7 @@ AnySync Receiver is a desktop receiving tool. After starting it on your PC, your
 3. Click `Start Receiver`.
 4. Connect your phone and PC to the same Wi-Fi, or enable phone hotspot and connect the PC to it.
 5. Scan the QR code on the PC screen, or open the shown `Phone URL` manually.
-6. Select photos or videos in the phone browser. Upload starts automatically after selection.
+6. Select photos, videos, or documents in the phone browser. Upload starts automatically after selection.
 7. Uploaded files are saved unchanged to the selected folder.
 
 ### Development
