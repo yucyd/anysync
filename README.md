@@ -1,6 +1,5 @@
 # AnySync Receiver 使用说明 / User Guide
 
-## 中文
 
 AnySync Receiver 是一个电脑端接收工具。电脑启动后，手机可以通过浏览器把照片和视频原样传到电脑指定文件夹，不压缩、不转码。
 
@@ -38,13 +37,12 @@ npm run tauri:dev
 
 ### 注意事项
 
-- 不要用微信、QQ、支付宝等内置浏览器，建议用 Safari、Chrome 或系统浏览器。
 - Windows 防火墙弹窗时，请允许专用网络访问。
 - 如果手机打不开地址，请确认手机和电脑在同一局域网。
 - 如果使用手机热点，电脑需要连接到这个热点后再启动接收。
 - 程序依赖 Microsoft Edge WebView2 Runtime。Windows 11 通常已自带。
 
-## English
+
 
 AnySync Receiver is a desktop receiving tool. After starting it on your PC, your phone can upload original photos and videos through a browser to a selected PC folder. Files are saved as-is, with no compression or transcoding.
 
@@ -82,7 +80,6 @@ npm run tauri:dev
 
 ### Notes
 
-- Avoid in-app browsers such as WeChat, QQ, or Alipay. Use Safari, Chrome, or the system browser.
 - Allow private network access if Windows Firewall asks.
 - If the phone cannot open the URL, make sure both devices are on the same local network.
 - When using a phone hotspot, connect the PC to the hotspot before starting the receiver.
