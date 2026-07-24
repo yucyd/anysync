@@ -1,0 +1,26 @@
+[package]
+name = "anysync-receiver"
+version = "0.1.0"
+description = "Receive original phone photos and videos over LAN."
+authors = ["AnySync"]
+edition = "2021"
+
+[lib]
+name = "anysync_receiver_lib"
+crate-type = ["rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+axum = { version = "0.7", features = ["multipart"] }
+chrono = { version = "0.4", features = ["serde"] }
+dirs = "5"
+local-ip-address = "0.6"
+rand = "0.8"
+rfd = "0.15"
+sanitize-filename = "0.5"
+serde = { version = "1", features = ["derive"] }
+tauri = { version = "2", features = [] }
+tokio = { version = "1", features = ["fs", "io-util", "macros", "net", "rt-multi-thread", "sync"] }
+tower-http = { version = "0.5", features = ["cors"] }
